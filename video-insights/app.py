@@ -14,7 +14,8 @@ app.config["VERBS"] = "static/images/verbs"
 
 @app.route('/')
 def index():
-    print("My commit")
+    # changes
+    
     return render_template('index.html')
 
 port = os.getenv('VCAP_APP_PORT', '8080')
